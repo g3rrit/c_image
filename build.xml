@@ -1,0 +1,7 @@
+<build>
+
+    <flag include="include"/>
+
+    <flag output="build/image"/>
+
+</build>
