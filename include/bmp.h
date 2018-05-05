@@ -16,7 +16,11 @@ struct image_data
     struct pixel *pixel_array; 
 };
 
-struct image_data *load_bmp(char *url);
+void image_data_create(struct image_data *this, int width, int height, int dpi);
+
+void image_data_delete(struct image_data *this);
+
+int load_bmp(char *url, struct image_data *data);
 
 int save_bmp(char *url, struct image_data *data);
 

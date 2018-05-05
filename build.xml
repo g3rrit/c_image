@@ -4,4 +4,9 @@
 
     <flag output="build/image"/>
 
+    <source value="src/bmp.c"/>
+    <source value="src/util.c"/>
+    <source value="src/image.c"/>
+    <source value="src/main.c"/>
+
 </build>
